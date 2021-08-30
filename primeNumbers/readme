@@ -1,0 +1,48 @@
+This program is use to find if a given number from a user is a prime number or not. If it's a prime number it will be shown as so.
+But if it isn't a prime number then the program will check the preivous numbers and tell the primes before the user given number
+
+for an example:
+  if the user inputs 100 as a number it will say 100 is not a prime number and will give the following as prime numbers 
+  100 is not a prime number
+  
+99
+97 is a prime number
+95
+93
+91
+89 is a prime number
+87
+85
+83 is a prime number
+81
+79 is a prime number
+77
+75
+73 is a prime number
+71 is a prime number
+69
+67 is a prime number
+65
+63
+61 is a prime number
+59 is a prime number
+57
+55
+53 is a prime number
+51
+49
+47 is a prime number
+45
+43 is a prime number
+41 is a prime number
+39
+37 is a prime number
+35
+33
+31 is a prime number
+29 is a prime number
+27
+25
+
+This program will work only if the input number is higher than 25, also this is not a perfect program. The reason is that it uses a mod function to determine if it's a prime 
+or not. I only added mod until 23.
